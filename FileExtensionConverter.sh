@@ -4,7 +4,8 @@ toExtension="$3"
 
 if [[ ! -d "$dir_path" ]]; then
         echo "Error: Directory not found."
-        echo "Usage: ./"$S0" directory_path originalExtension wantedExtension"
+        echo "Usage: "$S0" directory_path originalExtension wantedExtension"
+        echo "Example: "$0" /root/Images .txt .sh"
         exit 1;
 fi
 
